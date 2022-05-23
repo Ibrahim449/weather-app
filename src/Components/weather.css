@@ -1,0 +1,132 @@
+.container {
+    background-color: antiquewhite;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    /* height: 70vh; */
+}
+
+.searchInput {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.searchInput input {
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(254, 253, 253);
+    /* width: 100%; */
+}
+
+/* .searchInput button {
+    border: none;
+    margin-left: 4px;
+    background-color: #333;
+    width: 35px;
+    padding: 7px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+
+.degree h3:last-child {
+    color: gray;
+    font-size: 1rem;
+}
+
+.weather {
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.degree h1 {
+    font-size: 4rem;
+    font-weight: 450;
+}
+
+.degree h3 {
+    margin: 0.7rem 0px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 450;
+}
+
+.location {
+    font-size: 1.2rem;
+}
+
+.degree .location span {
+    margin-bottom: 20px !important;
+    margin-left: 5px;
+
+}
+
+.degree .icon {
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.weatherImage img {
+    width: 200px;
+    padding: 10px;
+}
+
+.weatherDetails {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-top: 1px solid gray;
+}
+
+.futureTemp {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.humidity {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempIcon {
+    font-size: 2.2rem;
+}
+
+.details h5 {
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1rem;
+}
